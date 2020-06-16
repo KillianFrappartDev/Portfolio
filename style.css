@@ -171,7 +171,6 @@ html {
 /* About */
 .about__container {
   position: relative;
-  height: 100vh;
   overflow: hidden;
 }
 
@@ -182,12 +181,7 @@ html {
 }
 
 .about__box {
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 3rem;
-  border-radius: 5px;
+  margin: 0 auto;
   width: 40%;
   text-align: center;
 }
@@ -205,12 +199,6 @@ html {
 }
 
 /* -----> Mobile <----- */
-@media screen and (max-width: 1400px) {
-  .about__box {
-    top: 60%;
-  }
-}
-
 @media screen and (max-width: 1200px) {
   .about__text {
     font-size: 1.3rem;
@@ -229,7 +217,6 @@ html {
   }
 
   .about__box {
-    top: 50%;
     width: 90%;
   }
 }
