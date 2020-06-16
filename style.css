@@ -168,6 +168,13 @@ html {
   }
 }
 
+@media screen and (max-height: 475px) {
+  .welcome__button {
+    bottom: 10px;
+    animation: none;
+  }
+}
+
 /* About */
 .about__container {
   position: relative;
