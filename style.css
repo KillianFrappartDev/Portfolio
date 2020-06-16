@@ -472,7 +472,7 @@ html {
 /* -----> Mobile <----- */
 @media screen and (max-width: 600px) {
   .contact__info-name {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 
