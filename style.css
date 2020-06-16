@@ -274,12 +274,16 @@ html {
   margin: 0 1rem;
 }
 
+.skills__item-images {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 /* -----> Mobile <----- */
 @media screen and (max-width: 999px) {
   .skills__item {
     flex-direction: column;
     justify-content: center;
-    flex-wrap: nowrap;
     width: 80%;
   }
 
@@ -291,6 +295,12 @@ html {
 @media screen and (max-width: 620px) {
   .skills__item {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .skills__item-images img {
+    margin: 0 0.5rem;
   }
 }
 
