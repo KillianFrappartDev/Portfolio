@@ -469,6 +469,13 @@ html {
   color: #9a031e;
 }
 
+/* -----> Mobile <----- */
+@media screen and (max-width: 600px) {
+  .contact__info-name {
+    font-size: 3rem;
+  }
+}
+
 /* -----> Animations <----- */
 @keyframes bounce {
   from {
