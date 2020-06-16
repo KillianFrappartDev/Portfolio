@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Killian Frappart</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Sriracha&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+
+    <!-- NavBar -->
+    <div class="navbar">
+      <a href="#welcome" class="navbar__brand">KF</a>
+      <div class="navbar__links">
+        <a href="#about" class="navbar__link">About</a>
+        <a href="#skills" class="navbar__link">Skills</a>
+        <a href="#projects" class="navbar__link">Projects</a>
+        <a href="#contact" class="navbar__link">Contact</a>
+      </div>
+    </div>
+
+    <!-- Welcome -->
+    <div id="welcome" class="welcome__container">
+      <div class="welcome__box">
+        <div class="welcome__box-corner welcome__box-corner-left"></div>
+        <div class="welcome__box-corner welcome__box-corner-right"></div>
+        <h1 class="welcome__title">
+          Web Developer <span class="primary">.</span>
+        </h1>
+      </div>
+      <a href="#about" class="welcome__button"
+        ><i class="fas fa-angle-double-down fa-5x"></i
+      ></a>
+    </div>
+
+    <!-- About -->
+    <div id="about" class="about__container">
+      <h1 class="about__title">About <span class="primary">.</span></h1>
+      <div class="about__box">
+        <p class="about__text">
+          <span class="secondary">{</span>My name is Killian, I am 24 years old
+          and I am a self taught Full-Stack Web developer.
+        </p>
+        <p class="about__text">
+          I have been teaching water sports around the world for years before I
+          fell in love with coding.
+        </p>
+        <p class="about__text">
+          Born in Belgium, my native language is french but I learned english
+          when I was working in Australia a couple years ago.
+        </p>
+        <p class="about__text">
+          I don't know evrything but there is nothing I can't learn. My interest
+          for development has no limit.
+        </p>
+        <p class="about__text">
+          Click <a href="#">here</a> and have a look to my resume.<span
+            class="secondary"
+            >}</span
+          >
+        </p>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div id="skills" class="skills__container">
+      <h1 class="skills__title">Skills <span class="primary">.</span></h1>
+      <div class="skills__item">
+        <h2 class="skills__item-name">UI & Design</h2>
+        <div class="skills__item-images">
+          <img src="media/html-5.png" alt="HTML5" />
+          <img src="media/css.png" alt="CSS3" />
+          <img src="media/JavaScript-logo.png" alt="JavaScript" width="128px" />
+        </div>
+      </div>
+      <div class="skills__item">
+        <h2 class="skills__item-name">Front-End</h2>
+        <div class="skills__item-images">
+          <img src="media/react-logo.webp" alt="react" width="180px" />
+          <img src="media/vue-logo.png" alt="vue" width="128px" />
+        </div>
+      </div>
+      <div class="skills__item">
+        <h2 class="skills__item-name">Back-End</h2>
+        <div class="skills__item-images">
+          <img src="media/nodejs-logo.png" alt="node" width="128px" />
+          <img
+            src="media/express.png"
+            alt="express"
+            width="158px"
+            height="100px"
+          />
+        </div>
+      </div>
+      <div class="skills__item">
+        <h2 class="skills__item-name">Databases</h2>
+        <div class="skills__item-images">
+          <img src="media/mongo.png" alt="mongo" width="128px" />
+          <img
+            src="media/MySQL.svg.png"
+            alt="sql"
+            width="168px"
+            height="100px"
+          />
+        </div>
+      </div>
+      </div>
+      <div class="skills__item last-item">
+        <h2 class="skills__item-name">Version control</h2>
+        <div class="skills__item-images">
+          <img src="media/git.png" alt="git" width="118px" />
+          <img src="media/github.svg.png" alt="github" width="128px" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div id="projects" class="projects__container">
+      <h1 class="projects__title">Projects <span class="primary">.</span></h1>
+      <div class="projects__items">
+        <div class="projects__item">
+          <div class="projects__item-name">
+            <h2>< Project 01 ></Project></h2>
+          </div>
+          <div class="projects__item-container">
+            <img src="media/test.jpg" alt="test" >
+            <div class="projects__item-actions">
+              <div class="projects__item-actions-btn btn-demo">
+                <h2>Demo</h2>
+              </div>
+              <div class="projects__item-actions-btn btn-code">
+                <h2>Code</h2>
+              </div>
+            </div>
+          </div>
+          <div class="projects__item-card">
+            <p><span class="green"><i class="fas fa-check"></i></span> Responsive design</p>
+            <p><span class="green"><i class="fas fa-check"></i></span> Database ( SQL )</p>
+            <p><span class="green"><i class="fas fa-check"></i></span> Authentication</p>
+          </div>
+        </div>
+        <div class="projects__item">
+          <div class="projects__item-name">
+            <h2>< Project 02 ></Project></h2>
+          </div>
+          <div class="projects__item-container">
+            <img src="media/test-2.jpg" alt="test" >
+            <div class="projects__item-actions">
+              <div class="projects__item-actions-btn btn-demo">
+                <h2>Demo</h2>
+              </div>
+              <div class="projects__item-actions-btn btn-code">
+                <h2>Code</h2>
+              </div>
+            </div>
+          </div>
+          <div class="projects__item-card">
+            <p><span class="green"><i class="fas fa-check"></i></span> Responsive design</p>
+            <p><span class="green"><i class="fas fa-check"></i></span> Database ( SQL )</p>
+            <p><span class="green"><i class="fas fa-check"></i></span> Authentication</p>
+          </div>
+        </div>        <div class="projects__item">
+          <div class="projects__item-name">
+            <h2>< Project 03 ></Project></h2>
+          </div>
+          <div class="projects__item-container">
+            <img src="media/test-3.jpg" alt="test" >
+            <div class="projects__item-actions">
+              <div class="projects__item-actions-btn btn-demo">
+                <h2>Demo</h2>
+              </div>
+              <div class="projects__item-actions-btn btn-code">
+                <h2>Code</h2>
+              </div>
+            </div>
+          </div>
+          <div class="projects__item-card">
+            <p><span class="green"><i class="fas fa-check"></i></span> Responsive design</p>
+            <p><span class="green"><i class="fas fa-check"></i></span> Database ( SQL )</p>
+            <p><span class="green"><i class="fas fa-check"></i></span> Authentication</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact" class="contact__container">
+      <div class="contact__infos">
+        <h2 class="contact__info-name">Killian Frappart</h2>
+        <div class="contact__info-items">
+          <p><span class="primary"><i class="fas fa-phone"></i></span> +32 472 52 18 75</p>
+          <p><span class="primary"><i class="fas fa-envelope"></i></span> Killian.Frappart@hotmail.com</p>
+          <p><span class="primary"><i class="fas fa-search-location"></i></span> Belgium</p>
+        </div>
+          <div class="contact__info-links">
+            <a class="link-facebook" href="#"><i class="fab fa-facebook-square fa-5x"></i></a>
+            <a class="link-linkedin" href="#"><i class="fab fa-linkedin fa-5x"></i></a>
+            <a class="link-github" href="#"><i class="fab fa-github-square fa-5x"></i></a>
+          </div>
+      </div>
+    </div>
+
+  </body>
+</html>
