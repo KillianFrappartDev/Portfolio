@@ -179,6 +179,7 @@ html {
 .about__container {
   position: relative;
   overflow: hidden;
+  min-height: 100vh;
 }
 
 .about__title {
@@ -238,6 +239,7 @@ html {
 .skills__container {
   position: relative;
   overflow: hidden;
+  min-height: 100vh;
 }
 
 .skills__title {
@@ -301,6 +303,7 @@ html {
 /* Projects */
 .projects__container {
   position: relative;
+  min-height: 100vh;
   overflow: hidden;
 }
 
